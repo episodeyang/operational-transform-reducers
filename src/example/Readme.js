@@ -16,20 +16,20 @@ export default function Readme({}) {
     <Markdown stripIndent={true}>{`
       # React ES6 Component Template
 
-      [![github](https://img.shields.io/github/downloads/episodeyang/react-es6-template/total.svg?style=flat-square&maxAge=2592000)]()
+      [![github](https://img.shields.io/github/downloads/episodeyang/operational-transform-reducers/total.svg?style=flat-square&maxAge=2592000)]()
 
       A template repo for react components written with es6 syntax.
 
       ## Usage (as a template)
 
       ~~~shell
-      git clone https://github.com/episodeyang/react-es6-template \<name of your new component\>
+      git clone https://github.com/episodeyang/operational-transform-reducers \<name of your new component\>
       cd \<name of your new component\>
       rm -rf .git
       rm -rf dist
 
       # now do your git init, git add/coommit/push
-      # replace "react-es6-template" with your own
+      # replace "operational-transform-reducers" with your own
       # replace "react es6 template" with your own
       # replace "react es6 component" with you own etc.
       ~~~

@@ -1,16 +1,16 @@
-# react-es6-template
+# operational-transform-reducers
 a minimal react es6 template with automatic document generation
 
 ## Usage (as a template)
 
 ```shell
-git clone https://github.com/episodeyang/react-es6-template \<name of your new component\>
+git clone https://github.com/episodeyang/operational-transform-reducers \<name of your new component\>
 cd \<name of your new component\>
 rm -rf .git
 rm -rf dist
 
 # now do your git init, git add/coommit/push
-# replace "react-es6-template" with your own
+# replace "operational-transform-reducers" with your own
 # replace "react es6 template" with your own
 # replace "react es6 component" with you own etc.
 ```
