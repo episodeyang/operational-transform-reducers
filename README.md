@@ -1,18 +1,24 @@
 # operational-transform-reducers
-a minimal react es6 template with automatic document generation
+A OT type library implemented with plain json objects and pure reducers.
 
-## Usage (as a template)
+## Usage
 
 ```shell
-git clone https://github.com/episodeyang/operational-transform-reducers \<name of your new component\>
-cd \<name of your new component\>
-rm -rf .git
-rm -rf dist
+npm install --save operationa-transform-reducers
+```
 
-# now do your git init, git add/coommit/push
-# replace "operational-transform-reducers" with your own
-# replace "react es6 template" with your own
-# replace "react es6 component" with you own etc.
+and then in your code:
+```javascript
+import {Array, arrayInsert, arrayRemove} from 'operational-transform-reducers';
+
+// do NOT use the `new` keyword. Array is a pure function.
+var list = Array(['some', 'list']);
+
+// and now list should look like:
+// list = {
+//     nodes: {'key-0': 'some', 'key-1': 'list'},
+//     childKeys: ['key-0', 'key-1']
+// }
 ```
 
 ## Develop
